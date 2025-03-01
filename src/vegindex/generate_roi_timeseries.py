@@ -143,7 +143,7 @@ def main():
             mask_img = mask_img.convert("L")
 
         # make a numpy mask
-        roimask = np.asarray(mask_img, dtype=np.bool8)
+        roimask = np.asarray(mask_img, dtype=np.bool)
 
         # get list of images for this timeperiod
         imglist = utils.getsiteimglist(

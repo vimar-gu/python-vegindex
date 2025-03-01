@@ -87,17 +87,7 @@ From the command line type:
 
 ::
 
-   pip install vegindex
-
-
-Some of the packages that ``vegindex`` depends on may not install
-automatically (using ``pip``) since they depend on system libraries.
-If the above command does not work you can try:
-
-::
-
-   pip install Pillow
-   pip install vegindex
+   python setup.py develop
 
 
 The latest version of the documentation can be found at
